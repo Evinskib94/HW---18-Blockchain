@@ -1,8 +1,40 @@
 This is the configuration from puppeth:
 
 
+![Running Puppeth](Screenshots/Puppepth.PNG)
 
+![Running Puppeth2](Screenshots/Fintech_2 configuration.PNG)
 
+Initializing nodes /start mining/Launching nodes
+
+./geth init chrizznet.json --datadir node1
+
+./geth init chrizznet.json --datadir node2
+
+![Init nodes](Screenshots/Nodes.PNG)
+Node 1
+
+ ./geth.exe --datadir node1/ --mine --minerthreads 1 
+
+![mine node1](Screenshots/node1_enode.PNG)
+Node 2 
+./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://5037f3465729a7b1387744b0fcae588c0ff46cdff8f4a8e0013755b7e299dfc3ba181c971fd3b8af1457f0d1c7874b78e84b630b67c62d19336ff9f7273521f5@127.0.0.1:30303"
+![mine node2](Screenshots/node2_enode.PNG)
+
+## MyCrypto
+
+7. Open MyCrypto & Click on "Add Custom Node", then add the custom network      information that was set in the genesis.
+
+8. Import the keystore file from the directory into MyCrypto      
+9. Make transaction
+
+    ![account snap](Screenshots/ETH_sent.PNG)
+
+   
+
+10. Copy the transaction hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup
+    
+Could not get my funds thorugh 
 
 # HW-18 Blockchain
 # Proof of Authority Development Chain
