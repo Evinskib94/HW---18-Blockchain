@@ -34,7 +34,7 @@ Node 2
 
 10. Copy the transaction hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup
     
-Could not get my funds thorugh 
+*Could not get my funds through* 
 
 # HW-18 Blockchain
 # Proof of Authority Development Chain
