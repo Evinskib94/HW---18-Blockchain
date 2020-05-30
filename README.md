@@ -1,9 +1,9 @@
 This is the configuration from puppeth:
 
 
-![Running Puppeth](Screen Shots/Puppepth.PNG)
+![Running Puppeth](Screen_Shots/Puppepth.PNG)
 
-![Running Puppeth2](Screen Shots/Fintech_2 configuration.PNG)
+![Running Puppeth2](Screen_Shots/Fintech_2_configuration.PNG)
 
 Initializing nodes /start mining/Launching nodes
 
@@ -11,15 +11,15 @@ Initializing nodes /start mining/Launching nodes
 
 ./geth init chrizznet.json --datadir node2
 
-![Init nodes](Screenshots/Nodes.PNG)
+![Init nodes](Screen_Shots/Nodes.PNG)
 Node 1
 
  ./geth.exe --datadir node1/ --mine --minerthreads 1 
 
-![mine node1](Screen Shots/node1_enode.PNG)
+![mine node1](Screen_Shots/node1_enode.PNG)
 Node 2 
 ./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://5037f3465729a7b1387744b0fcae588c0ff46cdff8f4a8e0013755b7e299dfc3ba181c971fd3b8af1457f0d1c7874b78e84b630b67c62d19336ff9f7273521f5@127.0.0.1:30303"
-![mine node2](Screen Shots/node2_enode.PNG)
+![mine node2](Screen_Shots/node2_enode.PNG)
 
 ## MyCrypto
 
@@ -28,7 +28,7 @@ Node 2
 8. Import the keystore file from the directory into MyCrypto      
 9. Make transaction
 
-    ![account snap](Screen Shots/ETH_sent.PNG)
+    ![account snap](Screen_Shots/ETH_sent.PNG)
 
    
 
