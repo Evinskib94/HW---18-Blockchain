@@ -1,3 +1,9 @@
+This is the configuration from puppeth:
+
+
+
+
+
 # HW-18 Blockchain
 # Proof of Authority Development Chain
 
